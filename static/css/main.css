@@ -14,20 +14,8 @@ body {
     transform: translate(-50%, -50%);
 }
 
-#airnode_system_login_form {
-    top: 10%;
-    flex: auto;
-}
-
-#airnode_system_login_username {
-    vertical-align: -webkit-baseline-middle;
-    align-items: center;
-}
-
-#airnode_system_login_password {
-    vertical-align: -webkit-baseline-middle;
-}
-
 #airnode_system_login_button {
-    vertical-align: -webkit-baseline-middle;
+    margin: 0;
+    display: flex;
+    
 }
