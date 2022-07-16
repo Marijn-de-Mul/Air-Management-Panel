@@ -6,25 +6,25 @@
 
 {% block body %}
 
-<div id="airnode_system_login_div_outline"> 
-    <div class="center_image" id="airnode_system_login_div"> <!-- Login Page Div --> 
+<div id="login_page_div_outline"> 
+    <div class="login_page_center_image" id="login_page_div"> <!-- Login Page Div --> 
         <!-- Logo -->
-        <img id="airnode_system_logo" src="https://cdn.discordapp.com/attachments/996802087453216859/997478609386221619/assetLogo.png">
+        <img id="login_page_logo_image" src="https://cdn.discordapp.com/attachments/996802087453216859/997478609386221619/assetLogo.png">
 
         <!-- Login -->
         <form action="/login" method="POST">
             <div> <!-- Username -->
                 <p style="font-size: 15px; margin: 10px; margin-right: 15px; display: inline-block; font-weight: 500; font-family: 'CustomFont', Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">USERNAME &#187;</p>
-                <input type="text" id="airnode_system_login_username" class="center_user_interface">
+                <input type="text" id="login_page_inputarea" class="login_page_center">
             </div>
 
             <div> <!-- Password -->
                 <p style="font-size: 15px; margin: 10px; margin-right: 15px; display: inline-block; font-weight: 500; font-family: 'CustomFont', Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">PASSWORD &#187;</p>
-                <input type="password" id="airnode_system_login_username" class="center_user_interface">
+                <input type="password" id="login_page_inputarea" class="login_page_center">
             </div> 
 
-            <input type="submit" value="LOG IN" id="airnode_system_login_button" class="center_user_interface">
-            <input type="submit" value="REGISTER" id="airnode_system_login_button" class="center_user_interface">
+            <input type="submit" value="LOG IN" id="login_page_buttons" class="login_page_center">
+            <input type="submit" value="REGISTER" id="login_page_buttons" class="login_page_center">
         </form> 
 
     </div> 

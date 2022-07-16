@@ -5,7 +5,15 @@ body {
     background-color: #1cca9b;
 }
 
-.center_image {
+/* Login Page */  
+
+.login_page_center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+
+.login_page_center_image {
     margin: 0;
     position: absolute;
     top: 50%;
@@ -14,13 +22,30 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.center_user_interface {
-    margin-left: auto;
-    margin-right: auto;
-    width: 8em
+/* #login_page_div {
+
+} */ 
+
+#login_page_logo_image {
+    width: 80%;
+} 
+
+#login_page_div_outline {
+    width: 30%;
+    height: 60%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 6px 4px 44px 2px rgba(0, 0, 0, 0.24);
 }
 
-#airnode_system_login_username {
+#login_page_inputarea {
     display: flex;
     box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
     cursor: pointer;
@@ -36,7 +61,7 @@ body {
     display: inline-block;
 }
 
-#airnode_system_login_button {
+#login_page_buttons {
     box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
     cursor: pointer;
     transition: 0.2s all;
@@ -56,30 +81,8 @@ body {
     font-size: 15px;
 }
 
-#airnode_system_login_button:active {
+#login_page_buttons:active {
     transform: scale(0.98);
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 
-#airnode_system_logo {
-    width: 80%;
-} 
-
-#airnode_system_login_div {
-
-}
-
-#airnode_system_login_div_outline {
-    width: 30%;
-    height: 60%;
-    border: 2px solid black;
-    border-radius: 10px;
-    background: white;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    box-shadow: 6px 4px 44px 2px rgba(0, 0, 0, 0.24);
-}
